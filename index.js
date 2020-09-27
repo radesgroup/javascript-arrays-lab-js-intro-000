@@ -2,11 +2,11 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 var extraKittenA = "Broom";
 var extraKittenB = "Arnold"
 
-function destructivelyAppendKitten(extraKitten){
+function destructivelyAppendKitten(){
 kittens.push(extraKittenA)
 }
 
-function destructivelyPrependKitten(extraKitten){
+function destructivelyPrependKitten(){
   kittens.unshift(extraKittenA)
 }
 
