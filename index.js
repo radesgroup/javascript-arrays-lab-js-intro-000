@@ -1,9 +1,10 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 var extraKittenA = "Broom";
 var extraKittenB = "Arnold"
+var extraKittenC = "Ralph"
 
 function destructivelyAppendKitten(){
-kittens.push(extraKittenA)
+kittens.push(extraKittenC)
 }
 
 function destructivelyPrependKitten(){
