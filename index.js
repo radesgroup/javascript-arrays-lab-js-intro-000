@@ -3,11 +3,11 @@ var extraKittenA = "Broom";
 var extraKittenB = "Arnold"
 
 function destructivelyAppendKitten(extraKitten){
-kittens.push(extraKitten)
+kittens.push(extraKittenA)
 }
 
 function destructivelyPrependKitten(extraKitten){
-  kittens.unshift(extraKitten)
+  kittens.unshift(extraKittenA)
 }
 
 function destructivelyRemoveLastKitten(){
