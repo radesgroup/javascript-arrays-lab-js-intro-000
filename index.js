@@ -25,4 +25,8 @@ function appendKitten(){
 function prependKitten(){
   return [extraKittenB, ...kittens]
 }
+
+function removeLastKitten(){
+  return [kittens.slice(kittens.length-1)]
+}
 // Add your functions and code here
