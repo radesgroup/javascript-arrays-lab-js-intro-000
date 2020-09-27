@@ -4,4 +4,8 @@ var extraKitten = "Oscar";
 function destructivelyAppendKitten(extraKitten){
 kittens.push(extraKitten)
 }
+
+function destructivelyPrependKitten(extraKitten){
+  kittens.unshift(extraKitten)
+}
 // Add your functions and code here
