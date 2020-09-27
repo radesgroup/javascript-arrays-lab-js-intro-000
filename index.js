@@ -20,4 +20,8 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(){
   return (kittens.concat(extraKitten))
 }
+
+function prependKitten(){
+  return (extraKitten.concat(kittens)
+}
 // Add your functions and code here
