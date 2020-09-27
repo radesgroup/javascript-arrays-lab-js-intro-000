@@ -1,14 +1,15 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 var extraKittenA = "Broom";
-var extraKittenB = "Arnold"
-var extraKittenC = "Ralph"
+var extraKittenB = "Arnold";
+var extraKittenC = "Ralph";
+var extraKittenD = "Bob";
 
 function destructivelyAppendKitten(){
 kittens.push(extraKittenC)
 }
 
 function destructivelyPrependKitten(){
-  kittens.unshift(extraKittenA)
+  kittens.unshift(extraKittenD)
 }
 
 function destructivelyRemoveLastKitten(){
