@@ -8,4 +8,9 @@ kittens.push(extraKitten)
 function destructivelyPrependKitten(extraKitten){
   kittens.unshift(extraKitten)
 }
+
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
+}
+
 // Add your functions and code here
