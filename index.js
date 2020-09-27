@@ -25,7 +25,7 @@ function appendKitten(){
 }
 
 function prependKitten(){
-  return (extraKittenB, ...kittens)
+  return [extraKittenB, ...kittens]
 }
 
 function removeLastKitten(){
