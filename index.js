@@ -1,5 +1,6 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
-var extraKitten = "Broom";
+var extraKittenA = "Broom";
+var extraKittenB = "Arnold"
 
 function destructivelyAppendKitten(extraKitten){
 kittens.push(extraKitten)
@@ -18,10 +19,10 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(){
-  return (kittens.concat(extraKitten))
+  return (kittens.concat(extraKittenA))
 }
 
 function prependKitten(){
-  return [extraKitten, ...kittens]
+  return [extraKittenB, ...kittens]
 }
 // Add your functions and code here
